@@ -6,8 +6,8 @@ import Image from 'next/image';
 
 const Navbar = () => {
 	return (
-		<div className="w-[100%] h-[54px] lg:px-[130px] md:px-[4px] py-2 bg-white bg-opacity-80 border border-slate-300 border-opacity-30 backdrop-blur-xl flex-col justify-center items-center gap-2.5 inline-flex">
-			<div className="w-[100%] justify-between items-center gap-44 inline-flex">
+		<div className="w-[100%] h-[54px] lg:px-[130px] md:px-[4px] py-2 bg-white bg-opacity-80 border border-slate-300 border-opacity-30 backdrop-blur-xl flex-col justify-center items-center gap-2.5 inline-flex z-10 fixed">
+			<div className="w-[100%] justify-between items-center gap-44 inline-flex bg-[rgba(255, 255, 255, 0.80)]">
 				<div className="justify-center items-center gap-8 flex">
 					<div className="justify-start items-end gap-0.5 flex">
 						<Image
