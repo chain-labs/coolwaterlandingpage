@@ -2,7 +2,9 @@ import Image from 'next/image';
 import React from 'react';
 import Emoji from '../../../../public/static/img/024.svg';
 import Emoji2 from '../../../../public/static/img/037-1.svg';
-import TwitterLogo from '../../../../public/static/img/twitterlogo.svg';
+import TwitterLogo from '../../../../public/static/img/twitterlogo-1.svg';
+import Globelogo from '../../../../public/static/img/globe.svg';
+import Cursor from '../../../../public/static/img/cursor.png';
 
 import BannerImage from '../../../../public/static/img/slice-1-2.png';
 
@@ -25,13 +27,28 @@ const BannerComp = () => {
 					src={BannerImage}
 					alt="BannerImage"
 				/>
-				<div className="w-36 h-12 left-[150px] top-[178px] absolute">
-					<div className="w-28 h-7 px-2.5 py-0.5 left-[22px] top-[22px] absolute bg-violet-50 rounded-3xl shadow-inner border border-zinc-300 justify-center items-center gap-1 inline-flex">
+				<div className="w-[120px] h-[28px] left-[150px] top-[178px] absolute">
+					<Image
+						className="w-[26px] h-[26px] rounded-full relative top-[4px] right-[8px]"
+						src={Cursor}
+						alt="logo"
+					/>
+					<div className="w-[120px] h-[28px]  left-[22px] top-[22px] absolute bg-violet-50 rounded-3xl shadow-inner border border-zinc-300 justify-center items-center gap-1 inline-flex">
 						<div className="text-blue-600 text-xs font-medium leading-normal">
 							Find us on
 						</div>
-						<div className="w-4 h-4 relative"></div>
-						<div className="w-4 h-4 relative"></div>
+						<div className="w-4 h-4 relative">
+							<Image
+								src={TwitterLogo}
+								alt=""
+							/>
+						</div>
+						<div className="w-4 h-4 relative">
+							<Image
+								src={Globelogo}
+								alt=""
+							/>
+						</div>
 					</div>
 				</div>
 				<div className="w-11 h-11 left-[41.35px] top-[195.54px] absolute">
