@@ -22,7 +22,7 @@ const Box3 = () => {
 						Managed by the best
 					</div>
 					<div className="text-gray-500 px-1 md:text-xs text-sm font-medium leading-[-14.4px] tracking-[-0.48px]">
-						Homerfan33 is an established collateralized-NFT lender since 2021.{' '}
+						Homerfan33 is an established NFT lender since 2021.{' '}
 					</div>
 				</div>
 				<div className="left-[15px] top-[35px] absolute justify-start items-start inline-flex">
