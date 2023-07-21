@@ -32,7 +32,7 @@ const NavbarMobile = () => {
 					</div>
 				</button>
 			</div>
-			{/* {menubox === true ? <Menubox /> : ''} */}
+			{menubox === true ? <Menubox /> : ''}
 		</div>
 	);
 };

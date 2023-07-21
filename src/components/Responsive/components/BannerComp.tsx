@@ -32,7 +32,7 @@ const BannerComp = () => {
 					<div className="w-72 text-white text-2xl font-medium tracking-[-0.96px]">
 						Coolwater is part of the Thaw Digital family
 					</div>
-					<div className="w-60 opacity-80 text-white text-xs font-medium leading-[14.4px]">
+					<div className="w-60 opacity-80 text-white text-sm font-medium leading-[14.4px]">
 						Purpose built by leaders in NFT collateral management and credit.
 					</div>
 				</div>

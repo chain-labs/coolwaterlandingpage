@@ -34,7 +34,7 @@ const TextComponent = () => {
 						</div>
 					</div>
 					<div className="text-center text-black md:text-6xl text-[32px] font-medium md:leading-tight leading-[40px] tracking-[-0.32px] md:tracking-[-2.56px]  relative top-[0px] ">
-						Pooled Lending on Blur
+						pooled lending on Blur
 					</div>
 				</div>
 				<div className="md:w-[400px] w-[354px] text-center text-[#666D80] text-sm font-normal leading-snug relative  md:text-lg tracking-[-0.36px] -z-20">

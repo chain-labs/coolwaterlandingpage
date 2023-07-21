@@ -6,9 +6,9 @@ const Box2 = () => {
 			<div className="md:w-[411px] w-[334px] md:h-48 h-[210px] left-0 top-0 absolute bg-gray-50 rounded-lg border border-[#ECEFF3]"></div>
 			<div className="left-[20px] top-[135px] absolute flex-col justify-start items-start gap-1 inline-flex">
 				<div className="text-[#36394A] text-base font-semibold leading-tight tracking-[-0.64px]">
-					Calculate your $BLUR value.
+					Calculate your $BLUR value
 				</div>
-				<div className="text-[#666D80] md:text-xs  text-sm font-medium leading-[-14.4px] tracking-[-0.48px]">
+				<div className="text-[#666D80] text-sm font-medium leading-[-14.4px] tracking-[-0.48px]">
 					Calculate your expected returns using our calculator.
 				</div>
 			</div>

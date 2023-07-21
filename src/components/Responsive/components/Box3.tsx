@@ -17,11 +17,11 @@ const Box3 = () => {
 						Homerfan33
 					</div>
 				</div>
-				<div className="left-[15px] top-[105px] mt-8 md:mt-0 relative flex-col justify-start items-start gap-1 inline-flex">
+				<div className="left-[26px] top-[105px] mt-16 md:mt-8 absolute flex-col justify-start items-start gap-1 inline-flex">
 					<div className="text-[#36394A] px-1 text-base font-semibold leading-tight tracking-[-0.64px]">
 						Managed by the best
 					</div>
-					<div className="text-gray-500 px-1 md:text-xs text-sm font-medium leading-[-14.4px] tracking-[-0.48px]">
+					<div className="text-gray-500 px-1 text-sm font-medium leading-[-14.4px] tracking-[-0.48px]">
 						Homerfan33 is an established NFT lender since 2021.{' '}
 					</div>
 				</div>

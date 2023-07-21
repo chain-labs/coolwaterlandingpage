@@ -49,8 +49,8 @@ const Box1 = () => {
 				<div className="text-[#36394A] text-base font-semibold leading-snug tracking-[-0.64px]">
 					Monitor your contributions
 				</div>
-				<div className="w-60  text-gray-500 md:text-xs text-sm font-medium leading-[-14.4px] tracking-[-0.48px]">
-					Passively accrue Blur points based on your contribution to the pool
+				<div className="w-60  text-gray-500 text-sm font-medium leading-[-14.4px] tracking-[-0.48px]">
+					Passively accrue Blur points based on your contribution to the pool.
 				</div>
 			</div>
 		</div>
