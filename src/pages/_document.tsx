@@ -4,7 +4,11 @@ export default function Document() {
 	return (
 		<Html lang="en">
 			<Head>
-				<title>Coolwater</title>
+				<title>COOLWATER.xyz</title>
+				<link
+					rel="shortcut icon"
+					href="/_next/static/media/vector-1.41660b04.svg"
+				/>
 			</Head>
 			<body>
 				<Main />
