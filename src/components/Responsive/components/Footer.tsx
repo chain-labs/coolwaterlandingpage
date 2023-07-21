@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import Divider from '../../../../public/static/img/divider.svg';
+import Divider from '../../../../public/static/img/divider-desktop.svg';
 
 const Footer = () => {
 	return (
@@ -8,13 +8,7 @@ const Footer = () => {
 			<div className="w-[100%] h-20 flex-col justify-center items-center gap-6 inline-flex top-[20%]">
 				<div className="justify-center items-center gap-6 inline-flex">
 					<div className="w-44 text-center text-slate-500 text-sm font-medium leading-none">
-						Cookies
-					</div>
-					<div className="w-44 text-center text-slate-500 text-sm font-medium leading-none">
-						Privacy Policy
-					</div>
-					<div className="w-44 text-center text-slate-500 text-sm font-medium leading-none">
-						Term of Conditions
+						Terms and Conditions
 					</div>
 				</div>
 			</div>

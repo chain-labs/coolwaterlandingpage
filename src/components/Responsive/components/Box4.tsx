@@ -5,8 +5,8 @@ import ChevronRight from '../../../../public/static/img/chevron-right.svg';
 
 const Box4 = () => {
 	return (
-		<div className="flex justify-center items-center relative top-[347px]">
-			<div className="md:w-[481px] md:h-[230px] px-3.5 py-4 w-[322px] h-[308px] bg-neutral-50 rounded-2xl border border-blue-600 border-opacity-5 flex-col justify-start items-start gap-9 inline-flex">
+		<div className="flex justify-center items-center relative md:top-[347px] top-[220px]">
+			<div className="md:w-[481px] md:h-[230px] px-3.5 py-4 w-[322px] h-[308px] bg-neutral-50 rounded-2xl border border-[#ECEFF3]  flex-col justify-start items-start gap-9 inline-flex">
 				<div className="self-stretch justify-start items-center gap-3 inline-flex">
 					<Image
 						className="w-12 h-12 rounded-full"

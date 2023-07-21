@@ -1,24 +1,18 @@
 import React from 'react';
 import Image from 'next/image';
-import Divider from '../../../../public/static/img/divider.svg';
+import Divider from '../../../../public/static/img/divider-desktop.svg';
 
 const FooterMobile = () => {
 	return (
-		<div className="relative top-[500px] flex justify-center items-center">
-			<div className="w-[80%] h-16 flex-col justify-start items-center gap-4 inline-flex">
-				<div className="w-[100%] justify-between items-center gap-6 inline-flex">
+		<div className="relative top-[350px] flex justify-center items-center">
+			<div className="w-[80%] h-16 flex-col justify-center items-center gap-4 inline-flex">
+				<div className="w-[100%] justify-center items-center gap-6 inline-flex">
 					<div className="text-center text-zinc-500 text-xs font-medium leading-none">
-						Cookies
-					</div>
-					<div className="text-center text-zinc-500 text-xs font-medium leading-none">
-						Privacy Policy
-					</div>
-					<div className="text-center text-zinc-500 text-xs font-medium leading-none">
-						Term of Conditions
+						Terms and Conditions
 					</div>
 				</div>
 				<Image
-					className="w-[100%]"
+					className="w-[100%] "
 					src={Divider}
 					alt="divider"
 				/>

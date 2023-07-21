@@ -6,7 +6,7 @@ import UpArrow from '../../../../public/static/img/up.svg';
 const Box1 = () => {
 	return (
 		<div className="md:w-[273px] md:h-[400px] relative w-[354px] h-[318px]">
-			{/* <div className="md:w-[273px] md:h-[400px] w-[354px] h-[318px] left-0 top-0 absolute bg-gray-50 rounded-lg border border-gray-100"></div> */}
+			<div className="md:w-[273px] md:h-[400px] w-[354px] h-[318px] left-0 top-0 absolute bg-gray-50 rounded-lg border border-[#ECEFF3] md:hidden"></div>
 			<div className="w-48 h-36 left-[38px] md:top-[70px] absolute opacity-40 bg-gray-100 rounded-lg"></div>
 			<div className="w-52 h-40 left-[32px] md:top-[75px] absolute opacity-60 bg-gray-100 rounded-lg"></div>
 			<div className="w-56 h-44 md:left-[23px] left-[18%] md:top-[83px] top-[40px] absolute bg-gray-100 rounded-xl border justify-start items-start inline-flex">
