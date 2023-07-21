@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 const TextComponent = () => {
 	return (
-		<div className="flex justify-center items-center relative top-[114px]">
+		<div className="flex justify-center items-center relative top-[114px] -z-20">
 			<div className="w-[680px] h-[200px] flex-col justify-center items-center gap-3 inline-flex">
 				<div className="flex-col justify-center items-center flex">
 					<div className="justify-start items-center gap-3 inline-flex">
@@ -33,7 +33,7 @@ const TextComponent = () => {
 						Pooled Lending on Blur
 					</div>
 				</div>
-				<div className="md:w-[400px] w-[354px] text-center text-[#666D80] text-sm font-normal leading-snug relative  md:text-lg tracking-[-0.36px]">
+				<div className="md:w-[400px] w-[354px] text-center text-[#666D80] text-sm font-normal leading-snug relative  md:text-lg tracking-[-0.36px] -z-20">
 					Passively earn Blur points and ETH yield by contributing to
 					established NFT lenders
 				</div>
