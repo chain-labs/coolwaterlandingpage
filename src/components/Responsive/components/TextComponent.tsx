@@ -33,7 +33,7 @@ const TextComponent = () => {
 						Pooled Lending on Blur
 					</div>
 				</div>
-				<div className="md:w-[400px] sm:w-[354px] text-center text-gray-500 text-lg font-normal leading-snug relative md:top-[10px] sm:text-sm  tracking-tight">
+				<div className="md:w-[400px] sm:w-[354px] text-center text-gray-500 text-sm font-normal leading-snug relative md:top-[10px] md:text-lg tracking-tight">
 					Passively earn Blur points and ETH yield by contributing to
 					established NFT lenders
 				</div>

@@ -20,7 +20,7 @@ const Navbar = () => {
 					<div className="justify-start items-center gap-6 flex">
 						<div className="px-4 py-2 justify-center items-center flex">
 							<a
-								className="text-center text-neutral-400 text-lg font-medium leading-snug cursor-pointer hover:text-black"
+								className="text-center text-neutral-400 text-lg font-normal leading-snug cursor-pointer hover:text-black"
 								target="_blank"
 								href="https://coolwater-xyz-web.vercel.app/strategies"
 							>
@@ -28,13 +28,13 @@ const Navbar = () => {
 							</a>
 						</div>
 						<div className="px-4 py-2 justify-center items-center flex ">
-							<a className="text-center text-neutral-400 text-lg font-medium leading-snug cursor-pointer hover:text-black">
+							<a className="text-center text-neutral-400 text-lg font-normal leading-snug cursor-pointer hover:text-black">
 								My Loan
 							</a>
 						</div>
 						<div className="px-4 py-2 justify-center items-center flex">
 							<a
-								className="text-center text-neutral-400 text-lg font-medium leading-snug cursor-pointer hover:text-black"
+								className="text-center text-neutral-400 text-lg font-normal leading-snug cursor-pointer hover:text-black"
 								target="_blank"
 								href="http://docs.coolwater.xyz/"
 							>

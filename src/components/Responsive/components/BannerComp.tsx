@@ -38,7 +38,7 @@ const BannerComp = () => {
 				</div>
 				<div className="md:w-96 md:h-72 w-[367px] h-[281px] md:left-[345px] md:top-[20px] left-[60px] top-[259px] absolute bg-white bg-opacity-25 rounded-2xl shadow-inner  border-opacity-60 "></div>
 				<Image
-					className=" md:h-64 w-[355px] h-[272px] md:left-[356px] left-[71.5px] md:top-[29px] top-[256px] absolute rounded-lg object-fill"
+					className=" md:h-64 w-[355px] h-[272px] md:left-[356px] left-[71.5px] md:top-[29px] top-[256px] absolute rounded-lg object-contain"
 					src={BannerImage}
 					alt="BannerImage"
 				/>

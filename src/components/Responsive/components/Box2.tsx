@@ -16,13 +16,13 @@ const Box2 = () => {
 				<div className="w-44 text-zinc-950 text-xl font-medium leading-normal">
 					1.0123 ETH
 				</div>
-				<div className="w-96 justify-start items-center gap-2 inline-flex">
+				<div className="md:w-96 justify-start items-center gap-2 inline-flex">
 					<div className="text-center text-neutral-400 text-xs font-normal leading-3">
 						0.00 ETH
 					</div>
 					<div className="grow shrink basis-0 pr-28 bg-zinc-100 rounded-full flex-col justify-center items-start inline-flex">
-						<div className="w-48 h-1.5 relative bg-gray-700 rounded-full">
-							<div className="w-5 h-5 left-[184px] top-[-7px] absolute bg-white rounded-full border-2 border-gray-700"></div>
+						<div className="md:w-48 w-[8rem] h-1.5 relative bg-gray-700 rounded-full">
+							<div className="w-5 h-5 md:left-[184px] left-[120px] top-[-7px] absolute bg-white rounded-full border-2 border-gray-700"></div>
 						</div>
 					</div>
 				</div>
