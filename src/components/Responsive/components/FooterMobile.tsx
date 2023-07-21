@@ -11,7 +11,7 @@ const FooterMobile = () => {
 						className="text-center text-zinc-500 text-xs font-medium leading-none"
 						href="/termsandconditions"
 					>
-						Terms and Conditions
+						Coolwater Service Agreement
 					</a>
 				</div>
 				<Image
@@ -20,7 +20,7 @@ const FooterMobile = () => {
 					alt="divider"
 				/>
 				<div className="w-[80%] text-center text-zinc-500 text-xs font-medium leading-none">
-					©2023 Coolwater. All Rights Reserved.
+					Copyright Thaw Digital, Inc. All rights reserved.{' '}
 				</div>
 			</div>
 		</div>

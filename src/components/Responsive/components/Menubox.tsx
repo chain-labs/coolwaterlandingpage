@@ -30,7 +30,7 @@ const Menubox = () => {
 					</a>
 				</div>
 				<a
-					className="px-2.5 py-2 bg-white rounded-3xl shadow border border-white border-opacity-10 justify-center items-center flex cursor-pointer hover:bg-blue-950"
+					className="px-2.5 py-2 bg-white rounded-3xl shadow border border-white border-opacity-10 justify-center items-center flex cursor-pointer "
 					target="_blank"
 					href="https://twitter.com/Coolwater_xyz"
 				>
