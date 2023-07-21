@@ -11,7 +11,7 @@ import Cursor from '../../../../public/static/img/cursor-1.svg';
 const Box3 = () => {
 	return (
 		<div className="md:w-[411px] w-[354px] md:h-48 h-[250px] relative ">
-			<div className="md:w-[411px] w-[354px] md:h-48 h-[250px] shrink-0 left-0 top-0  bg-gray-50 rounded-lg border border-[#ECEFF3">
+			<div className="md:w-[411px] w-[354px] md:h-48 h-[250px] shrink-0 left-0 top-0  bg-gray-50 rounded-lg border border-[#ECEFF3]">
 				<div className="w-28 h-12 left-[259px] md:top-[64px] top-[64px] absolute">
 					<div className="w-24 h-7 px-2.5 py-0.5 md:left-[16px] left-[-14px] md:top-[22px] top-[58px] relative bg-blue-600 rounded-3xl border border-blue-600 justify-center items-center gap-2 inline-flex">
 						<div className="text-white text-xs font-medium leading-normal">
@@ -60,7 +60,7 @@ const Box3 = () => {
 						/>
 					</div>
 					<Image
-						className="w-[26px] h-[26px] rounded-full relative top-[65px] right-[16px]"
+						className="w-[26px] h-[26px] rounded-full relative md:top-[35px] md:right-[16px] top-[65px] right-[16px]"
 						src={Cursor}
 						alt="logo"
 					/>

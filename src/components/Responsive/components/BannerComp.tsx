@@ -36,12 +36,12 @@ const BannerComp = () => {
 						Innovation + experience from a leader in crypto debt financing.
 					</div>
 				</div>
-				{/* <div className="md:w-96 md:h-72 w-[367px] h-[281px] md:left-[345px] md:top-[20px] left-[60px] top-[259px] absolute bg-white bg-opacity-25 rounded-2xl shadow-inner  border-opacity-60 "></div> */}
-				{/* <Image
+				<div className="md:w-96 md:h-72 w-[367px] h-[281px] md:left-[345px] md:top-[20px] left-[60px] top-[259px] absolute bg-white bg-opacity-25 rounded-2xl shadow-inner  border-opacity-60 "></div>
+				<Image
 					className=" md:h-64 w-[355px] h-[272px] md:left-[356px] left-[71.5px] md:top-[29px] top-[256px] absolute rounded-lg object-fill"
 					src={BannerImage}
 					alt="BannerImage"
-				/> */}
+				/>
 				<div className="w-[120px] h-[28px] md:left-[150px] md:top-[185px] top-[170px] left-[190px] absolute">
 					<Image
 						className="w-[26px] h-[26px] rounded-full relative top-[4px] right-[4px]"
