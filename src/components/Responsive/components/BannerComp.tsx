@@ -44,7 +44,7 @@ const BannerComp = () => {
 					alt="BannerImage"
 				/>
 				<Image
-					className=" md:h-64 w-[355px] h-[272px] left-[51.5px] top-[272px] absolute rounded-lg object-contain md:hidden"
+					className=" md:h-64 w-[355px] h-[272px] left-[51.5px] top-[272px] absolute rounded-lg md:hidden"
 					src={BannerImageMobile}
 					alt="BannerImage"
 				/>

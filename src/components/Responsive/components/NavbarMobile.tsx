@@ -18,14 +18,14 @@ const NavbarMobile = () => {
 						</div>
 					</div>
 				</div>
-				{/* <button className="py-2 justify-center items-center flex">
+				<button className=" justify-center items-center flex">
 					<div className="w-12">
 						<Image
 							src={Menu}
 							alt="twitter"
 						/>
 					</div>
-				</button> */}
+				</button>
 			</div>
 		</div>
 	);
