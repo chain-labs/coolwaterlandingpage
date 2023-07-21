@@ -14,7 +14,7 @@ const BlurboxComp = () => {
 					borderRadius: '20px',
 				}}
 			>
-				<div className="text-center flex flex-row -z-20">
+				<div className="text-center flex flex-row">
 					<div className="text-blue-700 text-xs font-medium leading-none">
 						BLUR{' '}
 					</div>
