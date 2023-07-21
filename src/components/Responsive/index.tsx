@@ -51,9 +51,9 @@ const LandingPage = () => {
 			<div className="invisible md:visible hidden md:flex">
 				<Footer />
 			</div>
-			{/* <div className="visible flex md:invisible md:hidden justify-center items-center">
+			<div className="visible flex md:invisible md:hidden justify-center items-center">
 				<FooterMobile />
-			</div> */}
+			</div>
 		</div>
 	);
 };
