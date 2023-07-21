@@ -5,12 +5,12 @@ import Vector1 from '../../../../public/static/img/vector-1.svg';
 
 const TextComponent2 = () => {
 	return (
-		<div className="flex justify-center items-center relative md:top-[200px] top-[150px]">
+		<div className="flex justify-center items-center relative md:top-[280px] top-[200px]">
 			<div className="w-[710px] h-[200px] flex-col justify-center items-center gap-3 inline-flex relative top-10">
 				<div className="flex-col justify-center items-center flex">
 					<div className="justify-start items-center gap-2.5 inline-flex">
 						<div className="text-center text-black text-4xl md:text-[64px] font-medium  md:leading-[-72px] md:tracking-[-2.56px]">
-							Peer-
+							peer-
 						</div>
 						<div className="invisible md:visible hidden md:flex">
 							<Image
@@ -25,7 +25,7 @@ const TextComponent2 = () => {
 							/>
 						</div>
 						<div className="text-center text-black text-4xl md:text-[64px] font-medium  md:leading-[-72px] md:tracking-[-2.56px]">
-							-Peer
+							-peer
 						</div>
 					</div>
 					<div className="text-center text-black text-4xl md:text-[64px] font-medium  md:leading-[-72px] md:tracking-[-2.56px] relative md:top-6">
@@ -33,9 +33,8 @@ const TextComponent2 = () => {
 					</div>
 				</div>
 				<div className="md:w-[568px] w-[354px] text-center text-[#666D80] md:text-lg md:tracking-[-0.045em] font-medium md:leading-[1.35em] relative text-sm md:top-7">
-					Coolwater's innovative combination of smart contracts and a
-					proprietary protocol ensures that ETH pooling is transparent,
-					efficient, and secure.
+					Coolwater combines transparency and security to ensure that
+					coordinating pool strategies is safe, efficient and trustworthy.
 				</div>
 			</div>
 		</div>

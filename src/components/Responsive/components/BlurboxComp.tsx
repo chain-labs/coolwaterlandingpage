@@ -2,7 +2,7 @@ import React from 'react';
 
 const BlurboxComp = () => {
 	return (
-		<div className="flex justify-center items-center relative top-[102px]">
+		<div className="flex justify-center items-center relative top-[102px] ">
 			<div
 				className="w-[263px] h-9 px-4 py-2.5 justify-center items-center gap-2.5 inline-flex"
 				style={{
@@ -14,9 +14,9 @@ const BlurboxComp = () => {
 					borderRadius: '20px',
 				}}
 			>
-				<div className="text-center flex flex-row">
+				<div className="text-center flex flex-row -z-20">
 					<div className="text-blue-700 text-xs font-medium leading-none">
-						$BLUR{' '}
+						BLUR{' '}
 					</div>
 					<div className="text-[#36394A] text-xs font-medium leading-none ml-0.5">
 						{' '}

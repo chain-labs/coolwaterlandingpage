@@ -38,7 +38,7 @@ const LandingPage = () => {
 			</div>
 			<BlurboxComp />
 			<TextComponent />
-			<div className="flex lg:flex-row items-center justify-center relative md:top-[160px] top-[140px] gap-4 flex-col-reverse">
+			<div className="flex lg:flex-row items-center justify-center relative md:top-[280px] top-[210px] gap-4 flex-col-reverse">
 				<Box1 />
 				<div className="flex flex-col items-center justify-center relative gap-4">
 					<Box2 />

@@ -5,12 +5,11 @@ import Emoji2 from '../../../../public/static/img/037-1.svg';
 import TwitterLogo from '../../../../public/static/img/twitterlogo-1.svg';
 import Globelogo from '../../../../public/static/img/globe.svg';
 import Cursor from '../../../../public/static/img/cursor.svg';
-import BannerImage from '../../../../public/static/img/slice-1-2.svg';
-import BannerImageMobile from '../../../../public/static/img/thawbanner.png';
+import BannerImage from '../../../../public/static/img/thawdigital.png';
 
 const BannerComp = () => {
 	return (
-		<div className="flex justify-center items-center relative md:top-[450px] top-[280px] overflow-hidden">
+		<div className="flex justify-center items-center relative md:top-[500px] top-[300px] overflow-hidden">
 			<div
 				className="md:w-[700px] md:h-[269px] w-[324px] h-[534px] relative rounded-lg overflow-hidden "
 				style={{
@@ -34,18 +33,18 @@ const BannerComp = () => {
 						Coolwater is part of the Thaw Digital family
 					</div>
 					<div className="w-60 opacity-80 text-white text-xs font-medium leading-[14.4px]">
-						Innovation + experience from a leader in crypto debt financing.
+						Purpose built by leaders in NFT collateral management and credit.
 					</div>
 				</div>
-				<div className="md:w-96 md:h-72 w-[367px] h-[281px] md:left-[345px] md:top-[20px] left-[50px] top-[259px] absolute bg-white bg-opacity-25 rounded-2xl shadow-inner  border-opacity-60 "></div>
+				<div className="md:w-96 md:h-72 w-[367px] h-[281px] md:left-[384px] md:top-[20px] left-[50px] top-[259px] absolute bg-white bg-opacity-25 rounded-2xl shadow-inner  border-opacity-60 "></div>
 				<Image
-					className=" md:h-64 w-[355px] h-[272px] md:left-[356px] md:top-[29px] absolute rounded-lg object-contain hidden md:flex"
+					className=" md:h-64 w-[305px] h-[272px] md:left-[398px] md:top-[33px] absolute object-contain hidden md:flex border rounded-2xl bg-white"
 					src={BannerImage}
 					alt="BannerImage"
 				/>
 				<Image
-					className=" md:h-64 w-[355px] h-[272px] left-[62.5px] top-[272px] absolute rounded-lg md:hidden"
-					src={BannerImageMobile}
+					className=" md:h-64 w-[255px] h-[272px] left-[65.5px] top-[272px] absolute rounded-lg md:hidden bg-cover bg-white object-contain"
+					src={BannerImage}
 					alt="BannerImage"
 				/>
 				<div className="w-[120px] h-[28px] md:left-[150px] md:top-[185px] top-[170px] left-[190px] absolute">
