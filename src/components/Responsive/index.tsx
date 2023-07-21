@@ -48,7 +48,6 @@ const LandingPage = () => {
 			<div className="visible flex md:invisible md:hidden">
 				<FooterMobile />
 			</div>
-			{/* <Footer /> */}
 		</div>
 	);
 };
