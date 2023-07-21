@@ -5,11 +5,14 @@ import Divider from '../../../../public/static/img/divider-desktop.svg';
 const FooterMobile = () => {
 	return (
 		<div className="relative top-[350px] flex justify-center items-center">
-			<div className="w-[60%] h-16 flex-col justify-center items-center gap-4 inline-flex">
-				<div className="w-[100%] justify-center items-center gap-6 inline-flex">
-					<div className="text-center text-zinc-500 text-xs font-medium leading-none">
+			<div className="w-[330px] h-16 flex-col justify-center items-center gap-4 inline-flex">
+				<div className="w-[330px] justify-center items-center gap-6 inline-flex">
+					<a
+						className="text-center text-zinc-500 text-xs font-medium leading-none"
+						href="/termsandconditions"
+					>
 						Terms and Conditions
-					</div>
+					</a>
 				</div>
 				<Image
 					className="w-[100%] "

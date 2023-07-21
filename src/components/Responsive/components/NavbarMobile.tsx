@@ -1,6 +1,6 @@
 import React from 'react';
 import Menu from '../../../../public/static/img/menu.svg';
-import Logo from '../../../../public/static/img/logo.svg';
+import Logo from '../../../../public/static/img/logo.png';
 
 import Image from 'next/image';
 
@@ -10,7 +10,7 @@ const NavbarMobile = () => {
 			<div className="w-[100%] justify-between items-center gap-44 inline-flex">
 				<div className="justify-center items-center gap-8 flex">
 					<div className="w-36 h-4 px-2 py-px justify-start items-end gap-1.5 flex">
-						<div className="justify-start items-end gap-0.5 flex">
+						<div className="justify-start items-end gap-0.5 flex object-contain">
 							<Image
 								src={Logo}
 								alt="logo"
@@ -19,7 +19,7 @@ const NavbarMobile = () => {
 					</div>
 				</div>
 				<button className=" justify-center items-center flex">
-					<div className="w-12">
+					<div className="">
 						<Image
 							src={Menu}
 							alt="twitter"

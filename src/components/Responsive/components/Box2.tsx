@@ -2,8 +2,8 @@ import React from 'react';
 
 const Box2 = () => {
 	return (
-		<div className="md:w-[411px] w-[354px] h-48 relative">
-			<div className="md:w-[411px] w-[354px] h-48 left-0 top-0 absolute bg-gray-50 rounded-lg border border-[#ECEFF3]"></div>
+		<div className="md:w-[411px] w-[334px] md:h-48 h-[210px] relative">
+			<div className="md:w-[411px] w-[334px] md:h-48 h-[210px] left-0 top-0 absolute bg-gray-50 rounded-lg border border-[#ECEFF3]"></div>
 			<div className="left-[20px] top-[135px] absolute flex-col justify-start items-start gap-1 inline-flex">
 				<div className="text-[#36394A] text-base font-semibold leading-tight tracking-[-0.64px]">
 					Calculate your $BLUR value
