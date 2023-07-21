@@ -24,7 +24,12 @@ const LandingPage = () => {
 					alt="image"
 				/>
 			</div>
-			<NavbarMobile />
+			<div className="invisible md:visible hidden md:flex">
+				<Navbar />
+			</div>
+			<div className="visible flex md:invisible md:hidden">
+				<NavbarMobile />
+			</div>
 			<BlurboxComp />
 			<TextComponent />
 			<div className="flex lg:flex-row items-center justify-center relative top-[160px] gap-4 flex-col-reverse">
