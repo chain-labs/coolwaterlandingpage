@@ -9,6 +9,18 @@ export default function Document() {
 					rel="shortcut icon"
 					href="/_next/static/media/vector-1.41660b04.svg"
 				/>
+				<link
+					rel="preconnect"
+					href="https://fonts.googleapis.com"
+				/>
+				<link
+					rel="preconnect"
+					href="https://fonts.gstatic.com"
+				/>
+				<link
+					href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+					rel="stylesheet"
+				/>
 			</Head>
 			<body>
 				<Main />

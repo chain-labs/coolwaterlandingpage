@@ -18,8 +18,8 @@ const NavbarMobile = () => {
 						</div>
 					</div>
 				</div>
-				<button className="px-2.5 py-2   justify-center items-center flex">
-					<div className="w-12 relative">
+				<button className="py-2 justify-center items-center flex">
+					<div className="w-12">
 						<Image
 							src={Menu}
 							alt="twitter"

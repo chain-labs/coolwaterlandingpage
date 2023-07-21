@@ -5,10 +5,10 @@ const Box2 = () => {
 		<div className="w-[411px] h-48 relative">
 			<div className="w-[411px] h-48 left-0 top-0 absolute bg-gray-50 rounded-lg border border-gray-100"></div>
 			<div className="left-[20px] top-[135px] absolute flex-col justify-start items-start gap-1 inline-flex">
-				<div className="text-gray-700 text-base font-semibold leading-tight">
+				<div className="text-[#36394A] text-base font-semibold leading-tight tracking-[-0.64px]">
 					Calculate your $BLUR value
 				</div>
-				<div className="text-gray-500 text-xs font-medium leading-none">
+				<div className="text-[#666D80] text-xs font-medium leading-[-14.4px] tracking-[-0.48px]">
 					Calculate your expected returns using our calculator
 				</div>
 			</div>

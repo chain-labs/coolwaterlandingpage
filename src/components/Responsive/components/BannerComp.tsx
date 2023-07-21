@@ -21,9 +21,9 @@ const BannerComp = () => {
 						Innovation + experience from a leader in crypto debt financing.
 					</div>
 				</div>
-				<div className="md:w-96 md:h-72 w-[367px] h-[281px] md:left-[349px] md:top-[20px] left-[90px] top-[259px] absolute bg-white bg-opacity-25 rounded-2xl shadow-inner  border-opacity-60"></div>
+				<div className="md:w-96 md:h-72 w-[367px] h-[281px] md:left-[349px] md:top-[20px] left-[90px] top-[259px] absolute bg-white bg-opacity-25 rounded-2xl shadow-inner  border-opacity-60 "></div>
 				<Image
-					className="md:w-96 md:h-64 w-[355px] h-[272px] md:left-[358px] left-[100px] md:top-[29px] top-[268px] relative rounded-lg shadow-inner"
+					className="md:w-96 md:h-64 w-[355px] h-[272px] md:left-[358px] left-[100px] md:top-[29px] top-[268px] absolute rounded-lg shadow-inner"
 					src={BannerImage}
 					alt="BannerImage"
 				/>

@@ -17,18 +17,18 @@ import NavbarMobile from './components/NavbarMobile';
 const LandingPage = () => {
 	return (
 		<div className="w-[100%]">
+			<div className="invisible md:visible hidden md:flex">
+				<Navbar />
+			</div>
+			<div className="visible flex md:invisible md:hidden">
+				<NavbarMobile />
+			</div>
 			<div>
 				<Image
 					className="w-[120%] self-stretch absolute"
 					src={BackgroundImage}
 					alt="image"
 				/>
-			</div>
-			<div className="invisible md:visible hidden md:flex">
-				<Navbar />
-			</div>
-			<div className="visible flex md:invisible md:hidden">
-				<NavbarMobile />
 			</div>
 			<BlurboxComp />
 			<TextComponent />

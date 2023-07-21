@@ -10,7 +10,7 @@ const TextComponent = () => {
 			<div className="w-[680px] h-[200px] flex-col justify-center items-center gap-3 inline-flex">
 				<div className="flex-col justify-center items-center flex">
 					<div className="justify-start items-center gap-3 inline-flex">
-						<div className="text-center text-black md:text-6xl font-medium leading-10 text-4xl ">
+						<div className="text-center text-black md:text-6xl font-medium leading-tight text-4xl ">
 							The Platform{' '}
 						</div>
 						<div className="invisible md:visible hidden md:flex">
@@ -29,11 +29,11 @@ const TextComponent = () => {
 							for
 						</div>
 					</div>
-					<div className="text-center text-black md:text-6xl text-4xl font-medium leading-10 relative md:top-[14px] top-[10px]">
+					<div className="text-center text-black md:text-6xl text-4xl font-medium leading-tight  relative md:top-[0px] top-[10px]">
 						Pooled Lending on Blur
 					</div>
 				</div>
-				<div className="md:w-[502px] sm:w-[354px] text-center text-gray-500 text-lg font-normal leading-snug relative md:top-[20px] sm:text-sm top-[10px]">
+				<div className="md:w-[400px] sm:w-[354px] text-center text-gray-500 text-lg font-normal leading-snug relative md:top-[10px] sm:text-sm top-[10px] tracking-tight">
 					Passively earn Blur points and ETH yield by contributing to
 					established NFT lenders
 				</div>
