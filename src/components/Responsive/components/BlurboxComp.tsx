@@ -8,7 +8,7 @@ const BlurboxComp = () => {
 					<div className="text-blue-700 text-xs font-medium leading-none">
 						$BLUR{' '}
 					</div>
-					<div className="text-gray-700 text-xs font-medium leading-none">
+					<div className="text-gray-700 text-xs font-medium leading-none ml-0.5">
 						{' '}
 						Lending taken to a different level
 					</div>

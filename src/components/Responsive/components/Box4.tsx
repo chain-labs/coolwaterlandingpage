@@ -70,13 +70,15 @@ const Box4 = () => {
 							</div>
 						</div>
 					</div>
-					<div
-						className="self-stretch px-2.5 py-2 rounded-3xl shadow border border-white border-opacity-10 justify-center items-center gap-1.5 inline-flex"
+					<a
+						className="self-stretch px-2.5 py-2 rounded-3xl shadow border border-white border-opacity-10 justify-center items-center gap-1.5 inline-flex cursor-pointer "
 						style={{
 							background:
 								'linear-gradient(0deg, #3351F2 0%, #3351F2 100%), linear-gradient(180deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0) 100%)',
 							boxShadow: '0px 0px 0px 1px #364ED1',
 						}}
+						target="_blank"
+						href="https://coolwater-xyz-web.vercel.app/dashboard"
 					>
 						<div className="text-center text-white text-sm font-medium leading-tight">
 							Contribute to the pool{' '}
@@ -87,7 +89,7 @@ const Box4 = () => {
 								alt="ellipse"
 							/>
 						</div>
-					</div>
+					</a>
 				</div>
 			</div>
 		</div>

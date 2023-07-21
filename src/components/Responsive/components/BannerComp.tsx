@@ -37,18 +37,26 @@ const BannerComp = () => {
 						<div className="text-blue-600 text-xs font-medium leading-normal">
 							Find us on
 						</div>
-						<div className="w-4 h-4 relative">
+						<a
+							className="w-4 h-4 relative"
+							target="_blank"
+							href=" https://twitter.com/Coolwater_xyz"
+						>
 							<Image
 								src={TwitterLogo}
 								alt=""
 							/>
-						</div>
-						<div className="w-4 h-4 relative">
+						</a>
+						<a
+							className="w-4 h-4 relative"
+							target="_blank"
+							href="https://thawdigital.com/"
+						>
 							<Image
 								src={Globelogo}
 								alt=""
 							/>
-						</div>
+						</a>
 					</div>
 				</div>
 				<div className="w-11 h-11 left-[41.35px] top-[195.54px] absolute">

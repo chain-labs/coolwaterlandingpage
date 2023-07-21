@@ -19,33 +19,45 @@ const Navbar = () => {
 					</div>
 					<div className="justify-start items-center gap-6 flex">
 						<div className="px-4 py-2 justify-center items-center flex">
-							<div className="text-center text-neutral-400 text-lg font-medium leading-snug">
+							<a
+								className="text-center text-neutral-400 text-lg font-medium leading-snug cursor-pointer hover:text-black"
+								target="_blank"
+								href="https://coolwater-xyz-web.vercel.app/strategies"
+							>
 								Strategies
-							</div>
+							</a>
 						</div>
-						<div className="px-4 py-2 justify-center items-center flex">
-							<div className="text-center text-neutral-400 text-lg font-medium leading-snug">
+						<div className="px-4 py-2 justify-center items-center flex ">
+							<a className="text-center text-neutral-400 text-lg font-medium leading-snug cursor-pointer hover:text-black">
 								My Loan
-							</div>
+							</a>
 						</div>
 						<div className="px-4 py-2 justify-center items-center flex">
-							<div className="text-center text-neutral-400 text-lg font-medium leading-snug">
+							<a
+								className="text-center text-neutral-400 text-lg font-medium leading-snug cursor-pointer hover:text-black"
+								target="_blank"
+								href="http://docs.coolwater.xyz/"
+							>
 								Docs
-							</div>
+							</a>
 						</div>
 					</div>
 				</div>
-				<button className="px-2.5 py-2 bg-[#3351F2] rounded-3xl shadow border border-white border-opacity-10 justify-center items-center flex">
+				<a
+					className="px-2.5 py-2 bg-[#3351F2] rounded-3xl shadow border border-white border-opacity-10 justify-center items-center flex cursor-pointer hover:bg-blue-950"
+					target="_blank"
+					href="https://twitter.com/Coolwater_xyz"
+				>
 					<div className="text-white text-xs font-medium leading-normal">
 						Find us on
 					</div>
-					<div className="w-4 h-4 relative">
+					<div className="w-4 h-4 relative ml-1.5">
 						<Image
 							src={TwitterLogo}
 							alt="twitter"
 						/>
 					</div>
-				</button>
+				</a>
 			</div>
 		</div>
 	);
