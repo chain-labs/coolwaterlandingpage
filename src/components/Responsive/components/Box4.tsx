@@ -6,7 +6,7 @@ import ChevronRight from '../../../../public/static/img/chevron-right.svg';
 const Box4 = () => {
 	return (
 		<div className="flex justify-center items-center relative md:top-[347px] top-[220px]">
-			<div className="md:w-[481px] md:h-[230px] px-3.5 py-4 w-[322px] h-[308px] bg-neutral-50 rounded-2xl border border-[#ECEFF3]  flex-col justify-start items-start gap-9 inline-flex">
+			<div className="md:w-[481px] md:h-[230px] px-3.5 py-4 w-[322px] h-[318px] bg-neutral-50 rounded-2xl border border-[#ECEFF3]  flex-col justify-start items-start gap-9 inline-flex">
 				<div className="self-stretch justify-start items-center gap-3 inline-flex">
 					<Image
 						className="w-12 h-12 rounded-full"
@@ -14,7 +14,7 @@ const Box4 = () => {
 						alt="ellipse"
 					/>
 					<div className="flex-col justify-start items-start gap-1.5 inline-flex">
-						<div className="opacity-40 text-stone-700 text-xs font-semibold leading-3">
+						<div className="opacity-40 text-stone-700 md:text-xs text-sm font-semibold leading-3">
 							Presented by:
 						</div>
 						<div className="text-stone-700 text-xl font-semibold leading-tight">
@@ -81,7 +81,7 @@ const Box4 = () => {
 						target="_blank"
 						href="https://coolwater-xyz-web.vercel.app/dashboard"
 					>
-						<div className="text-center text-white text-sm font-medium leading-tight">
+						<div className="text-center text-white md:text-xs text-sm font-medium leading-tight">
 							Contribute to the pool{' '}
 						</div>
 						<div className="w-5 h-5 relative">

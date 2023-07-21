@@ -6,6 +6,7 @@ import TwitterLogo from '../../../../public/static/img/twitterlogo-1.svg';
 import Globelogo from '../../../../public/static/img/globe.svg';
 import Cursor from '../../../../public/static/img/cursor.svg';
 import BannerImage from '../../../../public/static/img/slice-1-2.svg';
+import BannerImageMobile from '../../../../public/static/img/slice.svg';
 
 const BannerComp = () => {
 	return (
@@ -38,8 +39,13 @@ const BannerComp = () => {
 				</div>
 				<div className="md:w-96 md:h-72 w-[367px] h-[281px] md:left-[345px] md:top-[20px] left-[60px] top-[259px] absolute bg-white bg-opacity-25 rounded-2xl shadow-inner  border-opacity-60 "></div>
 				<Image
-					className=" md:h-64 w-[355px] h-[272px] md:left-[356px] left-[71.5px] md:top-[29px] top-[256px] absolute rounded-lg object-contain"
+					className=" md:h-64 w-[355px] h-[272px] md:left-[356px] md:top-[29px] absolute rounded-lg object-contain hidden md:flex"
 					src={BannerImage}
+					alt="BannerImage"
+				/>
+				<Image
+					className=" md:h-64 w-[355px] h-[272px] left-[51.5px] top-[272px] absolute rounded-lg object-contain md:hidden"
+					src={BannerImageMobile}
 					alt="BannerImage"
 				/>
 				<div className="w-[120px] h-[28px] md:left-[150px] md:top-[185px] top-[170px] left-[190px] absolute">

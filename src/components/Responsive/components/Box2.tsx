@@ -8,7 +8,7 @@ const Box2 = () => {
 				<div className="text-[#36394A] text-base font-semibold leading-tight tracking-[-0.64px]">
 					Calculate your $BLUR value
 				</div>
-				<div className="text-[#666D80] text-xs font-medium leading-[-14.4px] tracking-[-0.48px]">
+				<div className="text-[#666D80] md:text-xs  text-sm font-medium leading-[-14.4px] tracking-[-0.48px]">
 					Calculate your expected returns using our calculator
 				</div>
 			</div>

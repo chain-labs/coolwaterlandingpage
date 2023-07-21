@@ -10,7 +10,7 @@ const TextComponent = () => {
 			<div className="w-[680px] h-[200px] flex-col justify-center items-center gap-3 inline-flex">
 				<div className="flex-col justify-center items-center flex">
 					<div className="justify-start items-center gap-3 inline-flex">
-						<div className="text-center text-black md:text-6xl font-medium leading-tight text-4xl ">
+						<div className="text-center text-black md:text-6xl font-medium md:leading-tight leading-[40px] tracking-[-0.32px] md:tracking-[-2.56px] text-[32px] ">
 							The Platform{' '}
 						</div>
 						<div className="invisible md:visible hidden md:flex">
@@ -25,15 +25,15 @@ const TextComponent = () => {
 								alt='="logo'
 							/>
 						</div>
-						<div className="text-center text-black md:text-6xl font-medium leading-10 text-4xl ">
+						<div className="text-center text-black md:text-6xl font-medium md:leading-tight leading-[40px] tracking-[-0.32px] md:tracking-[-2.56px] text-[32px] ">
 							for
 						</div>
 					</div>
-					<div className="text-center text-black md:text-6xl text-4xl font-medium leading-tight  relative top-[0px] ">
+					<div className="text-center text-black md:text-6xl text-[32px] font-medium md:leading-tight leading-[40px] tracking-[-0.32px] md:tracking-[-2.56px]  relative top-[0px] ">
 						Pooled Lending on Blur
 					</div>
 				</div>
-				<div className="md:w-[400px] sm:w-[354px] text-center text-gray-500 text-sm font-normal leading-snug relative md:top-[10px] md:text-lg tracking-tight">
+				<div className="md:w-[400px] w-[354px] text-center text-[#666D80] text-sm font-normal leading-snug relative  md:text-lg tracking-[-0.36px]">
 					Passively earn Blur points and ETH yield by contributing to
 					established NFT lenders
 				</div>

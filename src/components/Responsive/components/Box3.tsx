@@ -12,18 +12,16 @@ const Box3 = () => {
 	return (
 		<div className="md:w-[411px] w-[354px] md:h-48 h-[250px] relative ">
 			<div className="md:w-[411px] w-[354px] md:h-48 h-[250px] shrink-0 left-0 top-0  bg-gray-50 rounded-lg border border-[#ECEFF3]">
-				<div className="w-28 h-12 left-[259px] md:top-[64px] top-[64px] absolute">
-					<div className="w-24 h-7 px-2.5 py-0.5 md:left-[16px] left-[-14px] md:top-[22px] top-[58px] relative bg-blue-600 rounded-3xl border border-blue-600 justify-center items-center gap-2 inline-flex">
-						<div className="text-white text-xs font-medium leading-normal">
-							Homerfan33
-						</div>
+				<div className="w-24 h-7 px-2.5 py-0.5 md:left-[274px] left-[240px] md:top-[90px] top-[120px] relative bg-blue-600 rounded-3xl border border-blue-600 justify-center items-center gap-2 inline-flex">
+					<div className="text-white text-xs font-medium leading-normal">
+						Homerfan33
 					</div>
 				</div>
-				<div className="left-[15px] top-[135px] mt-12 md:mt-0 relative flex-col justify-start items-start gap-1 inline-flex">
-					<div className="text-[#36394A] text-base font-semibold leading-tight tracking-[-0.64px]">
+				<div className="left-[15px] top-[105px] mt-8 md:mt-0 relative flex-col justify-start items-start gap-1 inline-flex">
+					<div className="text-[#36394A] px-1 text-base font-semibold leading-tight tracking-[-0.64px]">
 						Managed by the best
 					</div>
-					<div className="text-gray-500 text-xs font-medium leading-[-14.4px] tracking-[-0.48px]">
+					<div className="text-gray-500 px-1 md:text-xs text-sm font-medium leading-[-14.4px] tracking-[-0.48px]">
 						Homerfan33 is an established collateralized-NFT lender since 2021.{' '}
 					</div>
 				</div>

@@ -9,14 +9,15 @@ const Navbar = () => {
 		<div className="w-[100%] h-[54px] lg:px-[130px] md:px-[4px] py-2 bg-white bg-opacity-80 border border-slate-300 border-opacity-30 backdrop-blur-xl flex-col justify-center items-center gap-2.5 inline-flex">
 			<div className="w-[100%] justify-between items-center gap-44 inline-flex">
 				<div className="justify-center items-center gap-8 flex">
-					<div className="w-36 h-4 py-px justify-start items-end gap-1.5 flex">
-						<div className="justify-start items-end gap-0.5 flex">
-							<Image
-								src={Logo}
-								alt="logo"
-							/>
-						</div>
+					{/* <div className="w-36 h-4 py-px justify-start items-end gap-1.5 flex"> */}
+					<div className="justify-start items-end gap-0.5 flex">
+						<Image
+							className="object-contain"
+							src={Logo}
+							alt="logo"
+						/>
 					</div>
+					{/* </div> */}
 					<div className="justify-start items-center gap-6 flex">
 						<div className="px-4 py-2 justify-center items-center flex">
 							<a
