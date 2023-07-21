@@ -9,7 +9,7 @@ import BannerImage from '../../../../public/static/img/slice-1-2.svg';
 
 const BannerComp = () => {
 	return (
-		<div className="flex justify-center items-center relative md:top-[450px] top-[280px]">
+		<div className="flex justify-center items-center relative md:top-[450px] top-[280px] overflow-hidden">
 			<div
 				className="md:w-[700px] md:h-[269px] w-[354px] h-[534px] relative rounded-lg overflow-hidden "
 				style={{
